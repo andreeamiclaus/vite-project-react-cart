@@ -1,5 +1,6 @@
 body {
-  font-family: 'Helvetica';
+font-family: 'Roboto', sans-serif;
+background-color: rgb(232, 212, 233);
 }
 
 h1,
@@ -9,24 +10,44 @@ h3 {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  color: black;
+font-family: 'Kalam', cursive;
 }
 
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.5rem; 
+  font-family: 'Kalam', cursive;
+
+
 }
 
 h3 {
   font-size: 1rem;
 }
 
+
 a {
   text-decoration: none;
+
+
+}
+
+
+
+#cart{
+  margin-right: 20px;
+}
+.nav-options{
+  margin-left: 25rem;
+  gap: 2%;
 }
 
 .row {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+ grid-auto-flow: column;
+
+  gap: 1%;
 }
 
 .row.center {
@@ -35,25 +56,38 @@ a {
 
 .col-1 {
   flex: 1;
+
 }
 
 .col-2 {
   flex: 2;
+ 
 }
-
-.block {
-  background-color: #e0e0e0;
+.header-block{
+  padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    background-color:rgb(177, 109, 143);
+}
+.main-block{
+  background-color:rgb(194, 164, 194);
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
+
 }
+
+.cart-block{
+background-color: rgb(232, 212, 233);
+}
+  
 
 .text-right {
   text-align: right;
 }
 
 img.small {
-  max-height: 8rem;
+  max-height: 7rem;
 }
 
 button {
@@ -61,19 +95,19 @@ button {
   padding: 0.2rem;
   margin: 0.1rem;
   border-radius: 0.5rem;
-  border: 0.1rem #404040 solid;
-  background-color: #f0c040;
+  border: 0.1rem grey solid;
+background-color: rgb(237, 228, 233);
   width: 100%;
   cursor: pointer;
 }
 
 button.add {
-  background-color: #40c0f0;
+  background-color: pink;
   width: 1.5rem;
 }
 
 button.remove {
-  background-color: #f04040;
+  background-color:palevioletred;
   width: 1.5rem;
 }
 

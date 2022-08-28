@@ -2,12 +2,12 @@ import React from "react";
 export default function Basket(props) {
   const { cartItems, onAdd, onRemove } = props;
   const itemsPrice = cartItems.reduce((a, c) => a + c.qty * c.price, 0);
-  const taxPrice = itemsPrice * 0.14;
-  const shippingPrice = itemsPrice > 2000 ? 0 : 20;
+  const taxPrice = itemsPrice * 0.1;
+  const shippingPrice = itemsPrice > 20 ? 0 : 2;
   const totalPrice = itemsPrice + taxPrice + shippingPrice;
   return (
-    <aside className="block col-1">
-      <h2>Cart Items</h2>
+    <aside className="cart-block col-1">
+      <h2>CART ITEMS</h2>
       <div>
         {cartItems.length === 0 && <div>Cart is empty</div>}
         {cartItems.map((item) => (

@@ -19,13 +19,13 @@ const data = {
       image: 'https://images.pexels.com/photos/7712437/pexels-photo-7712437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     },
       {
-      id: '3',
+      id: '4',
       name: 'Foundation',
       price: 20,
       image: 'https://media.allure.com/photos/5cf68ef772858b051c5cd517/16:9/w_2560%2Cc_limit/urban-decay-stay-naked-lede.jpg',
     },
      {
-      id: '3',
+      id: '5',
       name: 'Eyeliner',
       price: 10,
       image: 'https://image.brigitte.de/12785960/t/p3/v4/w1440/r1.5/-/blauer-eyeliner-teaser.jpg',
